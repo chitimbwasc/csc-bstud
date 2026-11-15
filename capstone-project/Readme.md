@@ -189,21 +189,7 @@ Media files are **never stored in plaintext** and a **general decryption key is 
 5. **Blockchain integration, encryption/re-encryption layer, and testing.**
 6. **Evaluation** using sample music assets, simulated usage, and demonstration of both platform-mediated and independent payment paths.
 
----
 
-## 🚀 Getting Started
-
-
-
-
-
-### Prerequisites
-- Node.js (v18+) or Python 3.10+
-- A browser wallet (MetaMask or equivalent)
-- Access to an IPFS node or pinning service
-- A testnet account on your chosen chain
-
----
 
 ## 🗺️ Roadmap / Milestones
 
