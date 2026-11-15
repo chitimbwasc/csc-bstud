@@ -35,18 +35,18 @@ Unlike naive "upload → mint NFT → get paid" models, this platform deliberate
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  User Interface (React/Vue + wallet integration)        │
+│                 User Interface                          │
 │  Artists · Rights Admins · Listeners                    │
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────┐
-│  Blockchain Layer                                       │
+│                Blockchain Layer                         │
 │  Ownership records · NFT data · $CADN balances          │
 │  Immutable event logs                                   │
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────┐
-│  Smart Contracts (Solidity)                             │
+│                Smart Contracts                          │
 │  Royalty splitting · $CADN access payments              │
 │  Usage recording · Reward distribution                  │
 └────────────────────────┬────────────────────────────────┘
@@ -59,7 +59,7 @@ Unlike naive "upload → mint NFT → get paid" models, this platform deliberate
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────┐
-│  Backend Service (Node.js / Python)                     │
+│                  Backend Service                        │
 │  Off-chain data · Key management · Re-encryption        │
 │  requests · UI↔blockchain coordination                  │
 └─────────────────────────────────────────────────────────┘
@@ -193,27 +193,9 @@ Media files are **never stored in plaintext** and a **general decryption key is 
 
 ## 🚀 Getting Started
 
-> _Update this section with actual setup instructions once the prototype is scaffolded._
 
-```bash
-# Clone the repository
-git clone https://github.com/<your-org>/cadence-music-rights.git
-cd cadence-music-rights
 
-# Install dependencies (example)
-npm install
 
-# Configure environment variables
-cp .env.example .env
-# → set RPC_URL, PRIVATE_KEY, IPFS_API, KEY_MANAGEMENT_ENDPOINT, etc.
-
-# Compile & deploy contracts (example)
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network <network>
-
-# Run the frontend
-npm run dev
-```
 
 ### Prerequisites
 - Node.js (v18+) or Python 3.10+
@@ -245,12 +227,6 @@ Contributions, issues, and feature requests are welcome. Please open an issue to
 3. Commit your changes (`git commit -m 'Add your feature'`)
 4. Push and open a Pull Request
 
----
 
-## 📄 License
-
-> _Specify a license (e.g., MIT, Apache 2.0) before publishing._
-
----
 
 > **Cadence — the rhythm of access and fair rewards.**
